@@ -1,0 +1,36 @@
+{
+  "name": "huijiewei/yii2-bootbox",
+  "description": "Bootbox.js is a small JavaScript library which allows you to create programmatic dialog boxes using Bootstrap modals, without having to worry about creating, managing or removing any of the required DOM elements or JS event handlers. ",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "yii2-extension",
+  "homepage": "https://github.com/huijiewei/yii2-bootbox.git",
+  "keywords": [
+    "yii2",
+    "extension",
+    "bootbox",
+    "assets"
+  ],
+  "authors": [
+    {
+      "name": "Huijie Wei",
+      "email": "huijiewei@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "yiisoft/yii2": "^2.0",
+    "npm-asset/bootbox": "^4.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "huijiewei\\bootbox\\": "src"
+    }
+  },
+  "repositories": {
+    "asset": {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  }
+}
